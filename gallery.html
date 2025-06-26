@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gallery</title>
+    <link rel="stylesheet" href="s6.css">
+    <style>
+        .grid-gallery {
+            --size: 100px;
+            display: grid;
+            grid-template-columns: repeat(14, var(--size));
+            grid-auto-rows: var(--size);
+            gap: 5px;
+            place-items: start center;
+            margin-bottom: var(--size);
+            }
+        .grid-gallery img {
+            width: calc(var(--size) * 2);
+            height: calc(var(--size) * 2);
+            object-fit: cover;
+            grid-column: auto / span 2;
+            border-radius: 5px;
+            clip-path: path("M90,10 C100,0 100,0 110,10 190,90 190,90 190,90 200,100 200,100 190,110 190,110 110,190 110,190 100,200 100,200 90,190 90,190 10,110 10,110 0,100 0,100 10,90Z"); 
+            }
+        .grid-gallery img:nth-child(9n - 1) { 
+            grid-column: 2 / span 2 
+            }
+        .grid-gallery:has(img:hover) img:not(:hover) {
+            filter: brightness(0.5) contrast(0.5);
+            }
+        .grid-gallery img {
+            /* ... */
+            transition: clip-path 0.25s, filter 0.75s;
+            }
+        .grid-gallery img:hover {
+            clip-path: path("M0,0 C0,0 200,0 200,0 200,0 200,100 200,100 200,100 200,200 200,200 200,200 100,200 100,200 100,200 100,200 0,200 0,200 0,100 0,100 0,100 0,100 0,100Z");
+            transition: clip-path 0.25s, filter 0.25s;
+            z-index: 1;
+            }
+        .grid-gallery a:focus {
+            outline: 1px dashed black;
+            outline-offset: -5px;
+            }    
+    
+    </style>
+    
+</head>
+<body style="margin-left: 10px;" >
+    <header>
+            <nav>
+               <div id="navbar">
+                    <img src="./logo.jpg"  height="40 px"alt="logo">
+                    <h1 style="align-items: start;">Safari Supreme</h1>
+                    <ul>
+                     <a href="Home.html" style="text-decoration: none;">Home</a>
+                     <a href="trip.html" style="text-decoration: none;">Upcoming trip</a>
+                     <a href="tour.html" style="text-decoration: none;">Tour Packages</a> 
+                     <a href="gallery.html" style="text-decoration: none;">Gallery</a>
+                     <a href="blog.html" style="text-decoration: none;">Blog</a>
+                    </ul>
+                </div>   
+            </nav>
+        </header>
+    <article class="grid-gallery">
+  <img src="./gn/ (1).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (2).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (3).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (4).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (5).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (6).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (7).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (8).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (9).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (10).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (11).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (12).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (13).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (14).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (15).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (16).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (17).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (18).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (19).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (20).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (21).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (22).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (23).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (24).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (25).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (26).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (27).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (28).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (29).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (30).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (31).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (31).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (32).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (33).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (34).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (35).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (36).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (37).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (38).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (39).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (40).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (41).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (42).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (43).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (44).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (45).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (46).jpg" alt="Sorry Not avilabe" />
+  <img src="./gn/ (47).jpg" alt="Sorry Not avilabe" />
+  
+</article>
+<br>
+     <footer>
+         <div id="f1" class="f1">
+            <p> Contact us at: safarisupreme.com</p>
+            <p>Phone: 153-459-2536</p>
+            <p>Address: 234,Imaginary Street,Kolkata,India</p>
+            </div>
+            <hr>
+            <Div id="f2" class="f2">
+                <img src="./Insta.png" alt="INSTA" width="25" height="25"> 
+                <img src="./2..png" alt="INSTA" width="27" height="25">
+                <img src="./facebook-circular-logo.png" alt="INSTA" width="25" height="25">
+                <br>
+            </Div>
+     </footer>
+</body>
+</html>

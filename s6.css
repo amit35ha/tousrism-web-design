@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+    /* background-image: url("bg1.jpeg"); */
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+}
+html{
+    height: 100%;
+}
+ 
+body{
+    background-image: url(./bg1.jpeg);
+    margin-top: 24px;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+#navbar {
+    height: 50px;
+    background-color: #e7d2cc;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    padding-top: 7px;
+}
+
+#navbar ul {
+    display: flex;
+    list-style: none;
+    position: relative;
+    display: inline-block;
+    margin: 0 18px;
+
+}
+
+#navbar ul a {
+    color: #05445e;
+    font-size: 18px;
+    text-transform: uppercase;
+
+}
+
+#navbar ul a::after {
+    content: " ";
+    height: 3px;
+    width: 0%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s linear;
+}
+
+#navbar ul a:hover::after {
+    width: 100%;
+}
+
+#logo {
+    color: #05445e;
+    font-size: 35px;
+}
+
+a {
+    margin-right: 150px;
+    color: black;
+}
+
+div {
+    text-align: center;
+}
+.search{
+    padding: 12px;
+    border-radius: 7px;
+}
+.states{
+    padding: 12px;
+    border-radius: 7px;
+}
+.t2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+footer {
+    padding: 15px;
+    background-color: DarkSalmon;
+    color: white;
+    position:fixed;
+    height: 60px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    margin-bottom: 2px;
+    clear :both;
+    align-items: end;
+}
+.f2{
+    align-content: center;
+}
+
+button {
+    padding: 12px;
+    font-size: 15px;
+    font-weight: 200;
+    border: none;
+    background: #05445e ;
+    color: white;
+    margin-left: 0px;
+    margin-top: 30px ;
+    transition: .3s linear;
+    cursor: pointer;
+}
+
+button:hover {
+    scale: .8;
+}
+
+.content p {
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: monospace;
+    font-size: 20px;
+}
+.year-selector{
+    padding-top: 35px;
+    padding-bottom: 15px;
+    margin: 5px;
+    
+ 
+}
+
+
+

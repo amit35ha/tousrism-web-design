@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tourism website</title>
+    <link rel="stylesheet" href="s6.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <!-- Google Font: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f8fafc; /* Light gray background */
+        }
+        /* Custom scrollbar for better aesthetics */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #cbd5e1; /* Light gray track */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #4a5568; /* Darker gray thumb */
+            border-radius: 10px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #2d3748; /* Even darker on hover */
+        }
+    </style>
+</head>
+</html>
+    <body>
+        <header>
+            <nav>
+               <div id="navbar">
+                    <img src="./logo.jpg"  height="40 px" width="40px" alt="logo">
+                    <h1 style="align-items: start;">Safari Supreme</h1>
+                    <ul>
+                     <a href="Home.html" style="text-decoration: none;">Home</a>
+                     <a href="trip.html" style="text-decoration: none;">Upcoming trip</a>
+                     <a href="tour.html" style="text-decoration: none;">Tour Packages</a> 
+                     <a href="gallery.html" style="text-decoration: none;">Gallery</a>
+                     <a href="blog.html" style="text-decoration: none;">Blog</a>
+                    </ul>
+                </div>   
+            </nav>
+        </header>
+        <body class="text-gray-800">
+    <!-- Main Content Area -->
+    <main class="container mx-auto px-4 py-8 md:py-12">
+        <h1 class="text-5xl font-extrabold text-center text-gray-900 mb-12 animate-fade-in">Our Latest Travel Stories</h1>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Blog Post 1 -->
+            <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                <img src="https://placehold.co/600x400/2a9d8f/ffffff?text=Paris+Adventure" alt="Paris Cityscape" class="w-full h-56 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-3 leading-tight">A Romantic Journey Through the Heart of Paris</h2>
+                    <p class="text-gray-600 text-sm mb-4">By <span class="font-semibold text-blue-600">Alice Wonderland</span> on <time datetime="2024-06-20">June 20, 2024</time></p>
+                    <p class="text-gray-700 leading-relaxed mb-5">
+                        Paris, the City of Lights, captivated my soul with its enchanting boulevards, historic architecture, and the irresistible aroma of fresh croissants. From the majestic Eiffel Tower to the artistic Montmartre...
+                    </p>
+                    <a href="#" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition-colors duration-300 shadow-md hover:shadow-lg">
+                        Read More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Blog Post 2 -->
+            <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                <img src="https://placehold.co/600x400/e9c46a/ffffff?text=Himalayan+Trek" alt="Himalayan Mountains" class="w-full h-56 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-3 leading-tight">Conquering the Majestic Peaks of the Himalayas</h2>
+                    <p class="text-gray-600 text-sm mb-4">By <span class="font-semibold text-blue-600">Bob Explorer</span> on <time datetime="2024-06-15">June 15, 2024</time></p>
+                    <p class="text-gray-700 leading-relaxed mb-5">
+                        The Himalayas, a realm of unparalleled beauty and daunting challenges, offered an unforgettable trekking experience. Every step revealed breathtaking vistas, serene monasteries, and the warm smiles of locals...
+                    </p>
+                    <a href="#" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition-colors duration-300 shadow-md hover:shadow-lg">
+                        Read More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Blog Post 3 -->
+            <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                <img src="https://placehold.co/600x400/f4a261/ffffff?text=Safari+Adventure" alt="African Safari" class="w-full h-56 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-3 leading-tight">An Epic Safari Adventure in the Heart of Africa</h2>
+                    <p class="text-gray-600 text-sm mb-4">By <span class="font-semibold text-blue-600">Clara Nomad</span> on <time datetime="2024-06-10">June 10, 2024</time></p>
+                    <p class="text-gray-700 leading-relaxed mb-5">
+                        Witnessing the Great Migration, spotting the Big Five, and experiencing the raw beauty of the African savanna was a dream come true. Every moment was filled with thrilling wildlife encounters...
+                    </p>
+                    <a href="#" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition-colors duration-300 shadow-md hover:shadow-lg">
+                        Read More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Blog Post 4 -->
+            <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                <img src="https://placehold.co/600x400/9b5de5/ffffff?text=Coastal+Escape" alt="Tropical Beach" class="w-full h-56 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-3 leading-tight">Tranquil Coastal Escapes: Sun, Sand, and Serenity</h2>
+                    <p class="text-gray-600 text-sm mb-4">By <span class="font-semibold text-blue-600">David Beachbum</span> on <time datetime="2024-06-05">June 05, 2024</time></p>
+                    <p class="text-gray-700 leading-relaxed mb-5">
+                        There's nothing quite like the feeling of warm sand between your toes and the gentle lull of ocean waves. Our latest coastal escape was a perfect blend of relaxation and adventure...
+                    </p>
+                    <a href="#" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition-colors duration-300 shadow-md hover:shadow-lg">
+                        Read More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Blog Post 5 -->
+            <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                <img src="https://placehold.co/600x400/264653/ffffff?text=Historic+Cities" alt="Ancient City" class="w-full h-56 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-3 leading-tight">Unearthing History: Exploring Europe's Ancient Cities</h2>
+                    <p class="text-gray-600 text-sm mb-4">By <span class="font-semibold text-blue-600">Eve Historian</span> on <time datetime="2024-05-30">May 30, 2024</time></p>
+                    <p class="text-gray-700 leading-relaxed mb-5">
+                        Stepping back in time, we wandered through cobblestone streets, marvelled at ancient ruins, and absorbed the rich narratives embedded within Europe's most historic cities. A true feast for history buffs...
+                    </p>
+                    <a href="#" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition-colors duration-300 shadow-md hover:shadow-lg">
+                        Read More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </article>
+
+            <!-- Blog Post 6 -->
+            <article class="bg-white rounded-xl shadow-lg hover:shadow-2xl transition-all duration-300 overflow-hidden transform hover:-translate-y-2">
+                <img src="https://placehold.co/600x400/00bbf9/ffffff?text=Food+Travel" alt="Delicious Food" class="w-full h-56 object-cover rounded-t-xl">
+                <div class="p-6">
+                    <h2 class="text-2xl font-bold text-gray-900 mb-3 leading-tight">A Culinary Journey: Tasting the World, One Bite at a Time</h2>
+                    <p class="text-gray-600 text-sm mb-4">By <span class="font-semibold text-blue-600">Frank Gourmand</span> on <time datetime="2024-05-25">May 25, 2024</time></p>
+                    <p class="text-gray-700 leading-relaxed mb-5">
+                        From street food stalls in Bangkok to Michelin-starred restaurants in Rome, our latest adventure was a delectable exploration of global cuisines. Get ready for your taste buds to travel...
+                    </p>
+                    <a href="#" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition-colors duration-300 shadow-md hover:shadow-lg">
+                        Read More <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <!-- Pagination (Optional) -->
+    <div class="flex justify-center mt-12 mb-8">
+        <nav class="flex items-center space-x-2" aria-label="Pagination">
+            <a href="#" class="px-4 py-2 text-gray-600 bg-white rounded-lg shadow hover:bg-gray-100 transition-colors duration-300">Previous</a>
+            <a href="#" class="px-4 py-2 text-white bg-blue-600 rounded-lg shadow hover:bg-blue-700 transition-colors duration-300">1</a>
+            <a href="#" class="px-4 py-2 text-gray-600 bg-white rounded-lg shadow hover:bg-gray-100 transition-colors duration-300">2</a>
+            <a href="#" class="px-4 py-2 text-gray-600 bg-white rounded-lg shadow hover:bg-gray-100 transition-colors duration-300">3</a>
+            <a href="#" class="px-4 py-2 text-gray-600 bg-white rounded-lg shadow hover:bg-gray-100 transition-colors duration-300">Next</a>
+        </nav>
+    </div>
+
+
+        <br>
+        <footer style="height: -100px;">
+            <div id="f1" class="f1">
+            <p> Contact us at: safarisupreme.com</p>
+            <p>Phone: 153-459-2536</p>
+            <p>Address: 234,Imaginary Street,Kolkata,India</p>
+            </div>
+            <hr>
+            <Div id="f2" class="f2" class="flex justify-center md:justify-start mt-4 space-x-4">
+                <img src="./Insta.png" alt="INSTA" width="25" height="25"> 
+                <img src="./2..png" alt="INSTA" width="27" height="25">
+                <img src="./facebook-circular-logo.png" alt="INSTA" width="25" height="25">
+                <br>
+            </Div>
+        </footer>
+        <script>
+        // JavaScript for mobile navigation toggle
+        document.getElementById('menu-button').addEventListener('click', function() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('hidden');
+            navMenu.classList.toggle('block'); // Toggles display for mobile
+            // Add or remove flexbox for better alignment on mobile when open
+            if (!navMenu.classList.contains('hidden')) {
+                navMenu.classList.add('flex', 'flex-col', 'items-center');
+            } else {
+                navMenu.classList.remove('flex', 'flex-col', 'items-center');
+            }
+        });
+    </script>
+    </body>
+</html>
