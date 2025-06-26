@@ -29,6 +29,10 @@ This project leverages the power of fundamental web technologies to create a rob
   * **CSS3:** For all the stunning styling, responsive layouts, and visual appeal. 🎨
   * **JavaScript (Optional/Minor):** For subtle interactive elements like carousels or smooth scrolling, if implemented. ⚡
 
+## 💻 Screenshorts
+
+
+
 ## 🚀 Getting Started
 
 Ready to see it in action or start building your dream travel site? Follow these simple steps\!
@@ -83,7 +87,7 @@ Please ensure your code is clean, well-commented, and follows standard best prac
 
 Got questions, feedback, or just want to connect?
 
-Your Name - [@your\_twitter\_handle](https://www.google.com/search?q=https://twitter.com/your_twitter_handle) (Optional)
+Your Name - [@min.e_35(https://www.instagram.com/min.e_35/)
 
 Project Link: [https://github.com/amit35ha/tousrism-web-design](https://github.com/amit35ha/tousrism-web-design)
 
