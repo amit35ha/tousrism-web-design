@@ -30,6 +30,16 @@ This project leverages the power of fundamental web technologies to create a rob
   * **JavaScript (Optional/Minor):** For subtle interactive elements like carousels or smooth scrolling, if implemented. ⚡
 
 ## 💻 Screenshorts
+<img src="./Home.png" alt="main" style="width: 720px; display: block; margin-left: auto; margin-right: auto;">
+    <h2 style="text-align: center;">Home Page</h2>
+    <img src="./trip.png" alt="trip" style="width: 720px; display: block; margin-left: auto; margin-right: auto;">
+    <h2 style="text-align: center;">Upcoming Trip</h2>    
+    <img src="./tour.png" alt="tour" style="width: 720px; display: block; margin-left: auto; margin-right: auto;">
+    <h2 style="text-align: center;">Tour Packages</h2>
+    <img src="./gallery.png" alt="gallery" style="width: 720px; display: block; margin-left: auto; margin-right: auto;">
+    <h2 style="text-align: center;">Gallery</h2>
+    <img src="./blog.png" alt="blog" style="width: 720px; display: block; margin-left: auto; margin-right: auto;">
+    <h2 style="text-align: center;">Blog</h2>
 
 
 
