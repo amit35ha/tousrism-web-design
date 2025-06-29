@@ -98,7 +98,7 @@ Please ensure your code is clean, well-commented, and follows standard best prac
 
 Got questions, feedback, or just want to connect?
 
-Your Name - @min.e_35 https://www.instagram.com/min.e_35/
+Your Name - @min.e_35 (35ha) https://www.instagram.com/min.e_35/
 
 Project Link: [https://github.com/amit35ha/tousrism-web-design](https://github.com/amit35ha/tousrism-web-design)
 
